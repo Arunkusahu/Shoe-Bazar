@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Chicle&family=Courgette&family=Delius+Swash+Caps&family=Kaushan+Script&family=Lavishly+Yours&family=Matemasie&display=swap");
+
+.sidebar {
+  width: 260px;
+  background: white;
+  padding: 16px;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: flex-start;
+}
+
+.sidebar h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.filter-group {
+  width: 100%;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.filter-group:last-child {
+  border-bottom: none;
+}
+
+.filter-group label {
+  font-weight: bold;
+  text-align: left;
+}
+
+.radio-group, .checkbox-group, .color-options {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+}
+
+.radio-item, .checkbox-item, .color-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+input[type="checkbox"], input[type="radio"] {
+  cursor: pointer;
+}
+
+.price-range {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.price-range input[type="range"] {
+  width: 100%;
+}
+
+.color-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.color-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 1px solid #ccc;
+}
+
+.red { background-color: red; }
+.blue { background-color: blue; }
+.green { background-color: green; }
+yellow { background-color: yellow; }
+.black { background-color: black; }
+.white { background-color: white; }
+
+.clear-filters {
+  width: 100%;
+  background: darkred;
+  color: white;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 16px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.clear-filters:hover {
+  background: white;
+  border: 2px solid darkred;
+  color: darkred;
+}
