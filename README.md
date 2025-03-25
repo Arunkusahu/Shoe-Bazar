@@ -41,6 +41,19 @@ Shoe Bazar is a fully responsive and feature-rich e-commerce application built w
    ```sh
    npm install
    ```
+4. Install React_Router-Dom:
+   ```sh
+   npm install react-router-dom
+   ```
+5. Install React-Icons:
+   ```sh
+   npm install react-icons
+   ```
+5. Install Tailwind CSS:
+   ```sh
+   npm install -D tailwindcss postcss autoprefixer
+   npx tailwindcss init -p
+   ```
 4. Set up environment variables:
    - Create a `.env` file in the root directory and configure your database and JWT secret.
 5. Start the backend server:
@@ -51,11 +64,26 @@ Shoe Bazar is a fully responsive and feature-rich e-commerce application built w
    ```sh
    npm run dev
    ```
-7. Open the app in your browser at `http://localhost:5173`
+7. Open the app in your browser at `http://localhost:3003`
 
 ## 🤝 Contributing
 Feel free to fork this repository, improve features, and submit pull requests!
 
 ## 📜 License
 This project is open-source and available under the [MIT License](LICENSE).
+
+---
+
+### About Developers✈️
+
+- Made with ❤️ by ARUN KUMAR SAHU 😎
+
+  🔗 E-MAIL: aurnkumarsahu634@gmail.com
+  
+  🔗 INSTAGRAM: **arunsahu_98**
+  
+  🔗 Github: https://github.com/Arunkusahu?tab=repositories
+  
+  🔗 Linkdin: https://www.linkedin.com/in/arun-kumar-sahu-18085012b/
+
 
