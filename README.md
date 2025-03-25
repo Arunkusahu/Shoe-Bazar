@@ -73,6 +73,13 @@ Feel free to fork this repository, improve features, and submit pull requests!
 This project is open-source and available under the [MIT License](LICENSE).
 
 ---
+## Image Preview
+
+![Crosual2](https://github.com/user-attachments/assets/b637fd6c-78e8-4796-85e1-97f701946a36)
+
+![Crosual4](https://github.com/user-attachments/assets/6248158b-383d-46e2-a4c8-5cbd1d51ecc4)
+
+---
 
 ### About Developers✈️
 
